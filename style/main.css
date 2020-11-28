@@ -1,0 +1,36 @@
+:root {
+	--red-color: #e50914;
+	--black-color: #000000;
+}
+
+* {
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--black-color);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+	
+} 
+
+header .logo {
+	color: var(--red-color);
+	font-family: 'Arial', Times;
+	font-size: 40px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #d4d4d4;
+	margin-right: 10px; 
+	font-family: 'Arial', Times;
+}
+
+header nav a:hover {
+	color: #ffffff;
+}
