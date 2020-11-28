@@ -15,13 +15,17 @@ body {
 }
 
 header .container {
-	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 } 
 
 header .logo {
 	color: var(--red-color);
 	font-family: 'Arial', Times;
 	font-size: 40px;
+	margin-left: 5px;
 }
 
 header nav a {
