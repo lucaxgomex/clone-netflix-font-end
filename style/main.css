@@ -9,9 +9,11 @@
 	box-sizing: border-box;
 }
 
+/* Elementos principais */
 body {
 	background: var(--black-color);
 	font-family: 'Times New Roman', Times, serif;
+	color: #ffffff;
 }
 
 header {
@@ -42,4 +44,30 @@ header nav a {
 
 header nav a:hover {
 	color: #ffffff;
+}
+
+/* Movie */
+.titulo {
+	font-size: 100px;
+}
+
+.principal {
+	font-size: 16px;
+	background: linear-gradient(rgba(1,0,0,.50), rgba(1,0,0,.50) 100%), url(../img/cover.jpg);
+	background-size: cover;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.principal:hover {
+	background: url(../img/cover.jpg);
+	background-size: cover;
+	height: 550px;
+}
+
+.principal .sinopse {
+	margin-bottom: 40px;
 }
